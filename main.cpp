@@ -11,7 +11,7 @@ int main() {
     cout << "Which: ";
     cin >> times;
     if (times == 1 or times == 2) {
-        cout << 0 << endl;
+        cout << 1 << endl;
         return 0;
     }
     a[0] = 1;
