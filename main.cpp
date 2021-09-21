@@ -16,7 +16,7 @@ int main() {
     }
     a[0] = 1;
     b[0] = 1;
-    for (int time = 2; time <= times; time++) {
+    for (int time = 3; time <= times; time++) {
         for (int i = 0; i < 10000; i++) {
             t[i] += a[i] + b[i];
             if (t[i] >= 10) {
